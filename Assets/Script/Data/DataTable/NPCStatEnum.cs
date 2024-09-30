@@ -1,0 +1,30 @@
+public partial class NPCStatTable
+{
+    public enum COLUMN
+    {
+        PrimaryKey,
+        Level,
+        HitRate,
+        PowerAttack,
+        PowerDefence,
+        HP,
+        AimTime,
+        SelectionFactorAttack,
+        SelectionFactorSkillGroup,
+        AttackSkillGroup,
+        HPSkillGroup25,
+        HPSkillGroup50,
+        HPSkillGroup75,
+        ContinuouslySkillGroup,
+        RewardGroup,
+        MidiumRewardGroup10,
+        MidiumRewardGroup20,
+        MidiumRewardGroup30,
+        MidiumRewardGroup40,
+        MidiumRewardGroup50,
+        MidiumRewardGroup60,
+        MidiumRewardGroup70,
+        MidiumRewardGroup80,
+        MidiumRewardGroup90
+    }
+}

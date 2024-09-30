@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4403699316941795819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4403699316941795818}
+  - component: {fileID: 4403699316941795820}
+  m_Layer: 0
+  m_Name: FXModelInfoCommon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4403699316941795818
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4403699316941795819}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4403699316941795820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4403699316941795819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcac943aec1ae4029a0db133c2aff308, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_stEtcFXInfo:
+    m_oGrenadeWarningFX: {fileID: 0}
+  m_stWarpFXInfo:
+    m_oWarpStartFX: {fileID: 6651936561967964384, guid: dfc93bd5c9ae9f34a97f0c90b71ba83d, type: 3}
+    m_oWarpEndFX: {fileID: 6651936561967964384, guid: dfc93bd5c9ae9f34a97f0c90b71ba83d, type: 3}
+    m_oAbyssWarpStartFX: {fileID: 5009883777928100611, guid: c7be428706e429a4a9216087e32fc16f, type: 3}
+    m_oAbyssWarpEndFX: {fileID: 5009883777928100611, guid: c7be428706e429a4a9216087e32fc16f, type: 3}
+  m_stBuffFXInfo:
+    m_oHPBuffFX: {fileID: 1455644856480763242, guid: 4c6fc873390cb344898ad3f0875cc8da, type: 3}
+    m_oMoveSpeedBuffFX: {fileID: 1271089574990380061, guid: b42d77f2f1756ac4aabfb0b3fd6c1084, type: 3}
+    m_oAttackPowerBuffFX: {fileID: 6616140812369656116, guid: 6c90d7988af2aee4f9412ee90f51718c, type: 3}
+  m_stDebuffFXInfo:
+    m_oBleedingDebuffFX: {fileID: 7503606620899848149, guid: 68828d23776280b4688464be793d18f7, type: 3}
+    m_oMoveSpeedDebuffFX: {fileID: 1271089574990380061, guid: 0b16abc3eebbe0740a6d5b62f8b283c2, type: 3}
+  m_stUntouchableFXInfo:
+    m_oKnockbackFX: {fileID: 4113405433590059758, guid: 62c126cb40fa0431a9a22437361fc819, type: 3}
+    m_oUntouchableFX: {fileID: 3592119534944440166, guid: c7f4dd19c364181489957cd3c89afc28, type: 3}
+    m_oUntouchableFXDummy: {fileID: 0}
+  m_stIceFXInfo:
+    m_oIceFX: {fileID: 3021605412160816780, guid: a7115fbf57eb9804299d9727870dfb3e, type: 3}
+    m_oIceBreakFX: {fileID: 3021605412160816780, guid: b3af3013cc6a1d9408bfcb4104d0d031, type: 3}
+    m_oIceFieldFX: {fileID: 4113405433590059758, guid: 8adc79553084f3e4cb11a6a8a066abb4, type: 3}
+  m_oAuraFX: {fileID: 0}
+  m_oGrenadeWarningFX: {fileID: 4057291062137017447, guid: 96eead2bb34faae47b597484512f273a, type: 3}
+  m_oDieFXDummy: {fileID: 0}
+  m_oDieFX: {fileID: 0}
+  m_oReviveFXDummy: {fileID: 0}
+  m_oReviveFX: {fileID: 0}
+  m_oSummonFX: {fileID: 0}
+  m_oSummonCompleteFX: {fileID: 0}
+  m_oForceFieldFX: {fileID: 2157485401122408914, guid: 479f8858c7320d34f93dff9f798747b6, type: 3}
+  m_oFlameFieldFX: {fileID: 0}
+  m_oJumpAttackStartFX: {fileID: 0}
+  m_oJumpAttackWarningFX: {fileID: 0}
+  m_oJumpAttackFinishFX: {fileID: 0}

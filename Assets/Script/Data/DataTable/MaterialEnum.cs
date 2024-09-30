@@ -1,0 +1,36 @@
+public partial class MaterialTable
+{
+    public enum COLUMN
+    {
+        PrimaryKey,
+        NameKey,
+        DescKey,
+        ContentsForGetKey00,
+        ContentsForGetKey01,
+        ContentsForGetKey02,
+        ContentsForGetKey03,
+        ContentsForGetKey04,
+        ContentsForGetKey05,
+        ContentsForGetKey06,
+        ContentsForGetKey07,
+        ContentsForGetKey08,
+        ContentsForGetKey09,
+        ContentsForUseKey00,
+        ContentsForUseKey01,
+        ContentsForUseKey02,
+        ContentsForUseKey03,
+        ContentsForUseKey04,
+        ContentsForUseKey05,
+        ContentsForUseKey06,
+        ContentsForUseKey07,
+        ContentsForUseKey08,
+        ContentsForUseKey09,
+        Type,
+        SubType,
+        Grade,
+        Icon,
+        IconSymbol,
+        Prefab,
+        MaxStackCount,        
+    }    
+}

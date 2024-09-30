@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db6f17b98d2142aca29c13003f9da68, type: 3}
+  m_Name: BuildInfoTable
+  m_EditorClassIdentifier: 
+  m_oAppID: com.ninetap.gunshotrumblebeside
+  m_oAppName: 'Gun Shot Rumble : Beside'
+  m_stiOSBuildInfo:
+    m_oDevProfileID: 51c1bded-7f11-43e9-b0c0-3a429107c79c
+    m_oDistProfileID: 8cbc016a-1c22-46a8-8cdf-9f102110a3e8
+    m_oMinTargetOSVer: 15.6
+    m_stVerInfo:
+      m_nNum: 8
+      m_oVer: 0.1.4
+  m_stAndroidBuildInfo:
+    m_oKeystoreName: Keystore.keystore
+    m_oKeyaliasName: keystore
+    m_oKeystorePassword: NT9studio!
+    m_oKeyaliasPassword: NT9studio!
+    m_stVerInfo:
+      m_nNum: 8
+      m_oVer: 0.1.4
+  m_stStandaloneBuildInfo:
+    m_stVerInfo:
+      m_nNum: 1
+      m_oVer: 0.0.1

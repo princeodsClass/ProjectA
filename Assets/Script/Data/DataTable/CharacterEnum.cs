@@ -1,0 +1,36 @@
+public partial class CharacterTable
+{
+    public enum COLUMN
+    {
+        PrimaryKey,
+        NameKey,
+        DescKey,
+        Icon,
+        Prefab,
+        Grade,
+        Type,
+        RequireItemKey,
+        RequireItemCount,
+        PreRequireItemKey,
+        PreRequireItemCount,
+        Skill0501,
+        Skill1001,
+        Skill1501,
+        Skill1502,
+        Skill2001,
+        Skill2501,
+        Skill2502,
+        Skill3001,
+        Skill3501,
+        Skill3502,
+        Skill4001,
+        Skill4501,
+        Skill4502,
+        Skill5001,
+        Skill5501,
+        Skill5502,
+        Skill6001,
+        Skill6501,
+        Skill6502
+    }    
+}
