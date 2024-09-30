@@ -5,27 +5,9 @@ using UnityEngine;
 
 public static partial class ComType
 {
-    // NEW
-    // 작업 서버
-    public const string SERVER_URL = "http://localhost:12535/";
-    public const string GATEKEEPER_URL = "http://localhost:29661/";
-    // ( 테스트 ) aws test ( t2.micro )
-    // public const string GATEKEEPER_URL = "http://ec2-15-164-210-94.ap-northeast-2.compute.amazonaws.com:29661/";
-    // ( 라이브 )aws ( t3.xlarge )
-    // public const string GATEKEEPER_URL = "http://ec2-52-196-177-22.ap-northeast-1.compute.amazonaws.com:29661/";
-    // My Test Server
-    // public const string GATEKEEPER_URL = "http://3.34.40.127:29661/";
+	public const string GATEKEEPER_URL = "http://3.34.40.127:29661/";
 
-    // OLD
-    // 작업 서버
-    // public const string SERVER_URL = "http://localhost:55687/";
-    // public const string GATEKEEPER_URL = "http://localhost:46792/";
-    // ( 테스트 ) aws test ( t2.micro )
-    // public const string GATEKEEPER_URL = "http://ec2-15-164-210-94.ap-northeast-2.compute.amazonaws.com:46792/";
-    // ( 라이브 )aws ( t3.xlarge )
-    // public const string GATEKEEPER_URL = "http://ec2-52-196-177-22.ap-northeast-1.compute.amazonaws.com:46792/";
-
-    public const string SERVER_CONTROLLER_DATATABLE_VERSION = "checkversion";
+	public const string SERVER_CONTROLLER_DATATABLE_VERSION = "checkversion";
 	public const string SERVER_CONTROLLER_DATATABLE_DOWNLOAD = "datatable";
 	public const string SERVER_CONTROLLER_MAP_DOWNLOAD = "mapdata";
 

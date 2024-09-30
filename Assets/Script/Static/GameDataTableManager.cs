@@ -114,10 +114,7 @@ public class GameDataTableManager : SingletonMono<GameDataTableManager>
 #if UNITY_IOS
 		m_URL = (string)_versionData["URL_iOS_Debug"];
 #else
-        m_URL = ComType.SERVER_URL;
-		// m_URL = (string)_versionData["URL"];
-		// m_URL = "http://ec2-15-164-210-94.ap-northeast-2.compute.amazonaws.com:29661/";
-		// m_URL = (string)_versionData["URL_Debug"];
+		m_URL = (string)_versionData["URL_Debug"];
 #endif
 #else
 #if UNITY_IOS
